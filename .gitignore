@@ -1,0 +1,18 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# PHP / server logs
+logs/*.log
+error_log
+
+# Environment / local config (if you later split DB credentials out)
+.env
+
+# Dependency folders (if you add Composer/npm later)
+vendor/
+node_modules/
