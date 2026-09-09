@@ -46,7 +46,7 @@
     <div class="login-modal" role="dialog" aria-labelledby="modalTitle" aria-describedby="modalDesc">
         <button class="modal-close" id="loginModalClose" aria-label="Close dialog">&times;</button>
         <div class="modal-icon-badge">
-            <span class="modal-icon">🔒</span>
+            <span class="modal-icon"></span>
         </div>
         <h3 id="modalTitle">LOGIN REQUIRED</h3>
         <p id="modalDesc">
