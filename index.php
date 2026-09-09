@@ -115,8 +115,8 @@ $products = $conn->query(
                 <div class="benefit-text">
                     <h3>ENERGY BOOST</h3>
                     <p>
-                        Helps give you the energy you need
-                        throughout your day.
+                        A fast-acting caffeine and taurine blend that gets you moving 
+                        without the jitters or the crash.
                     </p>
                 </div>
             </div>
@@ -127,8 +127,8 @@ $products = $conn->query(
                 <div class="benefit-text">
                     <h3>PERFORMANCE</h3>
                     <p>
-                        Supports your active lifestyle
-                        and daily activities.
+                        Formulated to support stamina and output, whether you're training, 
+                        working, or grinding a deadline.
                     </p>
                 </div>
             </div>
@@ -139,8 +139,8 @@ $products = $conn->query(
                 <div class="benefit-text">
                     <h3>ENDURANCE</h3>
                     <p>
-                        Keep going and stay active
-                        for longer periods.
+                        Formulated to support stamina and output, 
+                        whether you're training, working, or grinding a deadline.
                     </p>
                 </div>
             </div>
@@ -152,7 +152,8 @@ $products = $conn->query(
                     <h3>BETTER FOCUS</h3>
                     <p>
                         Stay focused while studying,
-                        working or exercising.
+                        working or exercising.A clean formula 
+                        that sharpens concentration, so your mind keeps pace with your body.
                     </p>
                 </div>
             </div>
