@@ -1,18 +1,33 @@
 # OS files
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Editor/IDE
+# VS Code / IDE
 .vscode/
 .idea/
 
-# PHP / server logs
+# PHP logs
 logs/*.log
 error_log
+*.log
 
-# Environment / local config (if you later split DB credentials out)
+# Keep logs folder
+!logs/.gitkeep
+
+# Environment files
 .env
+.env.local
 
-# Dependency folders (if you add Composer/npm later)
+# Dependencies
 vendor/
 node_modules/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Backup files
+*.bak
+*.backup
