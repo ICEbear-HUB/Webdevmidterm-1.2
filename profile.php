@@ -15,7 +15,7 @@ if (!isset($_SESSION["user_id"])) {
 $userId = (int) $_SESSION["user_id"];
 
 // =========================
-// FETCH ACCOUNT INFO
+// ACCOUNT INFO
 // =========================
 $stmt = $conn->prepare("SELECT name, email, role, created_at FROM users WHERE id = ?");
 $stmt->bind_param("i", $userId);
@@ -28,7 +28,7 @@ if (!$user) {
 }
 
 // =========================
-// FETCH ORDER HISTORY
+// ORDER HISTORY
 // =========================
 $orders = [];
 $orderStmt = $conn->prepare(

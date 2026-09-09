@@ -12,7 +12,7 @@ if (isset($_POST["signup"])) {
     $password = $_POST["password"] ?? "";
     $confirm_password = $_POST["confirm_password"] ?? "";
 
-    // ===== SERVER-SIDE VALIDATION =====
+    // ===== SERVER VALIDATION =====
     if ($name === "" || $email === "" || $password === "" || $confirm_password === "") {
         $message = "Please fill in all fields.";
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
