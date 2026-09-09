@@ -116,14 +116,34 @@ nav a:hover {
 .hero {
     min-height: 520px;
     background: #1f2d3a;
-
+    position: relative;
     display: flex;
     align-items: center;
-
     overflow: hidden;
 }
 
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650px;
+    height: 650px;
+    max-width: 90vw;
+    max-height: 90vw;
+    background-image: url('../assets/images/logobg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.12;
+    pointer-events: none;
+    z-index: 1;
+}
+
 .hero-content {
+    position: relative;
+    z-index: 2;
     width: 100%;
     max-width: 1100px;
     margin: auto;
@@ -213,10 +233,12 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: end;
+    height:200;
+    width: 100;
 }
 
 .latest-side-product img {
-    width: 200px;
+    width: 400px;
     height: 210px;
     object-fit: contain;
 }
@@ -419,8 +441,8 @@ nav a:hover {
 }
 
 .benefit-icon {
-    width: 45px;
-    height: 45px;
+    width: 80px;
+    height: 80px;
     flex-shrink: 0;
 }
 
@@ -2833,6 +2855,13 @@ footer {
 
 .modal-icon {
     font-size: 28px;
+}
+
+.modal-logo-img {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    display: block;
 }
 
 .login-modal h3 {

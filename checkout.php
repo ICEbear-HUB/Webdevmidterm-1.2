@@ -22,7 +22,7 @@ if (empty($_SESSION["cart"])) {
 
 $message = "";
 
-$allowedPaymentMethods = ["Cash on Delivery", "GCash", "Credit/Debit Card"];
+$allowedPaymentMethods = ["Cash on Delivery", "kashG", "Credit/Debit Card"];
 
 // =========================
 // PLACE ORDER
@@ -123,7 +123,7 @@ if (isset($_POST["place_order"])) {
 }
 
 // =========================
-// FETCH CART ITEMS FOR REVIEW
+//  CART ITEMS FOR REVIEW
 // =========================
 $ids = array_map("intval", array_keys($_SESSION["cart"]));
 $placeholders = implode(",", array_fill(0, count($ids), "?"));
