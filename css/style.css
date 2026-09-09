@@ -2493,7 +2493,7 @@ footer {
 }
 
 /* ===================================================
-   UI ENHANCEMENTS: PRODUCT CARDS, QTY PICKER, TOASTS, MOBILE DRAWER
+  
 =================================================== */
 
 /* Product Flavor & Actions */
@@ -2593,7 +2593,7 @@ footer {
     transform: none;
 }
 
-/* Cart Count Bump Animation */
+/* Cart Count  */
 .cart-bump {
     animation: cartBump 0.35s ease-in-out;
 }
@@ -2687,7 +2687,7 @@ footer {
     color: #ffffff;
 }
 
-/* Mobile Hamburger Toggle */
+/* Mobile  Toggle */
 .nav-toggle {
     display: none;
     flex-direction: column;
@@ -2754,7 +2754,7 @@ footer {
 }
 
 /* ===================================================
-   LOGIN REQUIRED MODAL POPUP
+   LOGIN REQUIRED POPUP
 =================================================== */
 
 .login-modal-backdrop {
